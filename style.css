@@ -9,7 +9,6 @@ body{
 	background-color: D1D1D1;
 	font-size:12px;
 	justify-content: center;
-	max-width: 1000px;
 	}
 
 h1 {
@@ -93,11 +92,11 @@ p {
 	grid-column-start:1;
 	grid-column-end:2;
 	justify-content:center;
-	max-width: 400px;
 }
 
 .images img {
 	max-width: 100%;
+	padding: 10px;
 }
 
 .Hours {
@@ -111,10 +110,12 @@ p {
 	padding-top: 10px;
 	padding-bottom: 20px;
 	max-width: 100%;
+	justify-content: center;
 }
 
 #map iframe {
 	max-width: 100%;
+	justify-content: center;
 }
 
 .grid_2 {
@@ -132,7 +133,7 @@ p {
 .Contact_us {
 	grid-column-start:2;
 	grid-column-end:3;
-	align-items:start;
+
 }
 .Quote{
 	background-color: #FED766;
